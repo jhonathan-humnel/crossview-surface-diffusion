@@ -58,11 +58,10 @@ weight_dtype = torch.float16
 _TITLE = '''Wonder3D: Single Image to 3D using Cross-Domain Diffusion'''
 _DESCRIPTION = '''
 <div>
-Generate consistent multi-view normals maps and color images.
-<a style="display:inline-block; margin-left: .5em" href='https://github.com/xxlong0/Wonder3D/'><img src='https://img.shields.io/github/stars/xxlong0/Wonder3D?style=social' /></a>
+Generate consistent multi-view normal maps and color images, then reconstruct a textured mesh.
 </div>
 <div>
-The demo does not include the mesh reconstruction part, please visit <a href="https://github.com/xxlong0/Wonder3D/">our github repo</a> to get a textured mesh.
+See the project README for configuration details, checkpoint paths, and troubleshooting.
 </div>
 '''
 _GPU_ID = 0

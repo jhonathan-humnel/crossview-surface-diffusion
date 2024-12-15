@@ -498,7 +498,7 @@ class ConcatDataset(torch.utils.data.Dataset):
 
 if __name__ == "__main__":
     train_dataset = ObjaverseDataset(
-        root_dir="/ghome/l5/xxlong/.objaverse/hf-objaverse-v1/renderings",
+        root_dir="./data/objaverse_renderings",
         size=(128, 128),
         ext="hdf5",
         default_trans=torch.zeros(3),

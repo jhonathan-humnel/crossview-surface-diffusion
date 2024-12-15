@@ -25,9 +25,8 @@ parser.add_argument('--view', type=int, default=0,
 parser.add_argument(
     "--object_path",
     type=str,
-    default='/ghome/l5/xxlong/.objaverse/hf-objaverse-v1/glbs/000-148/2651a32fb4dc441dab773b8b534b851f.glb',
     required=True,
-    help="Path to the object file",
+    help="Path to the object file (.glb)",
 )
 parser.add_argument('--output_folder', type=str, default='output',
                     help='The path the output will be dumped to.')

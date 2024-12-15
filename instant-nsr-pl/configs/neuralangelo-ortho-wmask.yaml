@@ -4,7 +4,7 @@ seed: 42
 
 dataset:
   name: ortho
-  root_dir: /home/xiaoxiao/Workplace/wonder3Dplus/outputs/joint-twice/aigc/cropsize-224-cfg1.0
+  root_dir: ../outputs  # path to MV diffusion output folder (override at launch)
   cam_pose_dir: null
   scene: scene_name
   imSize: [1024, 1024]  # should use larger res, otherwise the exported mesh has wrong colors

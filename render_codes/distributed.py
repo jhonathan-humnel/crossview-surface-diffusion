@@ -35,7 +35,7 @@ parser.add_argument('--start_i', type=int, default=0,
 parser.add_argument('--end_i', type=int, default=-1,
                     help='the index of the last object to be rendered.')
 
-parser.add_argument('--objaverse_root', type=str, default='/ghome/l5/xxlong/.objaverse/hf-objaverse-v1',
+parser.add_argument('--objaverse_root', type=str, default='./data/objaverse',
                     help='Path to a json file containing a list of 3D object files.')
 
 parser.add_argument('--save_folder', type=str, default=None,

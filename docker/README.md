@@ -1,6 +1,6 @@
 # Docker setup
 
-This docker setup is tested on Ubunu20.04.
+This docker setup is tested on Ubuntu 20.04.
 
 make sure you are under directory yourworkspace/Wonder3D/
 

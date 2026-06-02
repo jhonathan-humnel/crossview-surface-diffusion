@@ -9,7 +9,7 @@ cd ./render_codes
 pip install -r requirements.txt
 ```
 
-Set `BLENDER_INSTALL_PATH` to the Blender binary directory used by your BlenderProc install.
+Set `BLENDER_INSTALL_PATH` to the Blender binary directory used by your BlenderProc installation.
 
 ## Scripts
 

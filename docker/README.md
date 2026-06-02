@@ -15,7 +15,7 @@ then run
 
 ## Nvidia Container Toolkit setup
 
-You will have trouble enabling gpu for docker if you haven't installed **NVIDIA Container Toolkit** on you local machine before. You can skip this section if you have already installed it. Follow the instruction in this website to install it. 
+You will have trouble enabling gpu for docker if you haven't installed **NVIDIA Container Toolkit** on your local machine before. You can skip this section if you have already installed it. Follow the instruction in this website to install it. 
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
